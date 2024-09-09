@@ -19,8 +19,8 @@ If you want to do some interactive exploration of the dataset, such as displayin
 The model training will be run normally, but forwarding all the output to local disk is recommended and in the end copying relevant output to `WRKDIR` for analysis and further usage.
 
 For more advanced usage of ImageNet, checkout [this repo](https://github.com/AaltoRSE/ImageNetTools).
-If you are working on CSC's supercomputers that support multi-node, multi-GPU jobs, you can refer to SC's
-[multi-node ddp examples](https://github.com/CSCfi/pytorch-ddp-examples).
+
+If you are working on CSC's supercomputers that support multi-node, multi-GPU jobs, you can refer to CSC's [multi-node ddp examples](https://github.com/CSCfi/pytorch-ddp-examples).
 
 
 [pytorch_dist]: https://pytorch.org/tutorials/beginner/dist_overview.html
