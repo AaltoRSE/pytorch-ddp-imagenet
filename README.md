@@ -16,7 +16,7 @@ Note: in this example we are using Slurm's `srun` to launch multiple processess 
 
 If you want to do some interactive exploration of the dataset, such as displaying some images, trying out various image transformations, you can extract a few classes to the WRKDIR, see the script `extract_some_samples.sh` 
 
-The model training will be run normally, but forwarding all the output to local disk is recommended and in the end copying relevant output to `WRKDIR` for analysis and further usage.
+The model training will be run normally, but forwarding all the output to local disk is recommended and in the end copying relevant output to `WRKDIR` for analysis and further usage because files in /tmp will be lost when the job completes.
 
 For more advanced usage of ImageNet, checkout [this repo](https://github.com/AaltoRSE/ImageNetTools).
 
