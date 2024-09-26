@@ -1,4 +1,4 @@
-## PyTorch single-node multi-GPU example for ASC's supercomputers Triton
+### PyTorch single-node multi-GPU example for ASC's supercomputers Triton
 
 To make usage of [PyTorch distributed][pytorch_dist], in particular
 [DistributedDataParallel][ddp] with a large dataset, like ImageNet on Triton easier, we created this example. This work is ongoing, and we welcome any feedback to improve it.
