@@ -3,7 +3,7 @@
 #SBATCH --nodes=1                            # Number of nodes (can not be more than 1 on triton)
 #SBATCH --ntasks=2                           # Number of tasks (usually equals number of GPUs)
 #SBATCH --gres=gpu:2
-#SBATCH --partition=gpu-debug                    
+#SBATCH --partition=gpu-debug                # gpu-debug partition is for quick test, thus the time limit is 30 minutes         
 #SBATCH --cpus-per-task=8                    # Number of CPU cores per task
 #SBATCH --mem=100G                            # Memory per node
 #SBATCH --time=00:30:00                      # Maximum time for the job
